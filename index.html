@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nakano Number 1 Fan</title>
+    <meta name="description" content="Nakano Miku number 1 fan">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.5s ease;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #3b5998;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        p, ul, ol, table, form {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+
+     
+        video {
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+
+     
+        section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+      
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th {
+            background-color: #3b5998;
+            color: white;
+            padding: 10px;
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+       
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input {
+            margin: 10px;
+            padding: 10px;
+            width: 80%;
+            max-width: 400px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #3b5998;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #324a80;
+        }
+
+      
+        #message {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .error {
+            color: White;
+        }
+        .success {
+            color: White;
+        }
+    </style>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent form submission
+            const firstInput = document.querySelector('input[name="Miku"]').value.trim();
+            const secondInput = document.querySelector('input[name="yes"]').value.trim();
+            const message = document.getElementById("message");
+
+            if (
+                (firstInput === "Miku" || firstInput === "miku") &&
+                (secondInput === "Yes" || secondInput === "yes")
+            ) {
+                document.body.style.backgroundColor = "green"; 
+                message.textContent = "OF COURSE THE ONE AND ONLY ANSWER!!";
+                message.className = "success";
+            } else {
+                document.body.style.backgroundColor = "Red"; 
+                message.textContent = "Wrong. try again";
+                message.className = "error";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>[Nakano Miku]</h1>
+    <h2>Her Majesty</h2>
+    <video src="her majesty.mp4" controls type="video/mp4" width="400"></video>
+    <p style="text-align: center; font-size: 14px; color: #555;">
+    Credit: <a href="https://www.tiktok.com/@pzxepitsu" target="_blank" style="color: #007bff;">@pzxepitsu on TikTok</a>
+</p>
+    <section>
+        <p>I mean just <b>look</b> at her <em>face</em>, bro! It's literally 
+        <strong>god-sent</strong>. I am blessed to be even in her picture radius.</p>
+        <p>For real.</p>
+        <p>Why? 'Cause it just is, brother.</p>
+        <p>Crazy? Nah, reasonable.</p>
+    </section>
+    <section>
+        <p><em>Legit</em></p>
+        <ul>
+            <li>Like for real</li>
+            <li>No fake</li>
+            <li>Sigma</li>
+        </ul>
+    </section>
+    <ol>
+        <p>For my reasons:</p>
+        <li>Hips don't lie, Shakira Shakira</li>
+        <li><strong>SLAYYYY</strong></li>
+        <li>My wife of 46 years</li>
+        <li>No diddy for real for real, don't come after me. I am a <strong>Minor</strong> <br>
+        <b>A</b> <em>MINOR</em></li>
+    </ol>
+
+    <h2><u>Here is my ranking of the Gotoubun</u></h2>
+    <table>
+        <tr>
+            <th>Rank</th>
+            <th>Status (real)</th>
+        </tr>
+        <tr>
+            <td>Miku</td>
+            <td>My beloved majestic wife of 46 years</td>
+        </tr>
+        <tr>
+            <td>Nino</td>
+            <td>My X</td>
+        </tr>
+        <tr>
+            <td>Yotsuba</td>
+            <td>Friend</td>
+        </tr>
+        <tr>
+            <td>Itsuki</td>
+            <td>Seatmate</td>
+        </tr>
+        <tr>
+            <td>Ichika</td>
+            <td>Classmate</td>
+        </tr>
+    </table>
+
+    <form onsubmit="handleSubmit(event)">
+        <label for="Miku">Who is your favorite? </label>
+        <input type="text" name="Miku" id="Miku"><br>
+        <label for="yes">Are you sure? </label>
+        <input type="text" name="yes" id="yes"><br>
+        <button type="submit">Send</button>
+    </form>
+    <p id="message"></p>
+    <p style="text-align:center;">More degeneracy <a href="degenaracy.html">here</a>.</p>
+</body>
+</html>
